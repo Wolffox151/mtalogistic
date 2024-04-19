@@ -1,0 +1,16 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16">
+<symbol id="flag_en">
+  <g clip-path="url(#a)" fill-opacity=".8">
+    <path fill="#fff" d="M0 0h22v16H0z"/>
+    <path d="M0 2.5v2.4h3.4L0 2.5ZM2.9 16h5v-3.6L3 16ZM14 12.4V16h5l-5-3.6ZM0 11.1v2.4l3.4-2.4H0ZM19.2 0H14v3.6L19 0ZM22 13.5v-2.4h-3.4l3.4 2.4Zm0-8.6V2.5l-3.4 2.4H22ZM8 0H2.8l5 3.6V0Z" fill="#00247D"/>
+    <path d="m15.4 11.1 6 4.2c.3-.3.5-.7.6-1L17.6 11h-2.2Zm-7.5 0H6.6l-6 4.2c.3.4.7.6 1.2.7L8 11.7V11Zm6.2-6.2h1.3l6-4.2c-.3-.4-.8-.6-1.2-.7l-6.1 4.3V5Zm-7.5 0L.6.7c-.3.3-.5.7-.6 1L4.4 5h2.2Z" fill="#CF1B2B"/>
+    <path d="M22 9.8h-9.2V16h1.3v-3.6l5 3.6h.5a2.4 2.4 0 0 0 1.7-.7l-6-4.2h2.2l4.4 3 .1-.6-3.4-2.4H22V9.8Zm-22 0v1.3h3.4L0 13.5c0 .7.3 1.3.7 1.8l6-4.2h1.2v.6l-6 4.2.5.1H3l5-3.6V16h1.3V9.8H0Zm22-7.3c0-.7-.3-1.3-.7-1.8l-6 4.2h-1.2v-.6l6-4.2-.5-.1h-.4L14 3.6V0h-1.3v6.2H22V4.9h-3.4L22 2.5ZM8 0v3.6L2.8 0h-.5A2.4 2.4 0 0 0 .7.7l6 4.2H4.4L.1 2l-.1.6L3.4 5H0v1.3h9.2V0H7.9Z" fill="#EEE"/>
+    <path d="M12.8 6.2V0H9.2v6.2H0v3.6h9.2V16h3.6V9.8H22V6.2h-9.2Z" fill="#CF1B2B"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h22v16H0z"/>
+    </clipPath>
+  </defs>
+</symbol>
+</svg>

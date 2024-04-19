@@ -1,0 +1,111 @@
+.page {
+    display: grid;
+    justify-content: center;
+    min-inline-size: 320px;
+    background-color: var(--page-background-color, #003366);
+    padding-block: 25px 80px;
+    padding-inline: 80px;
+    color: var(--page-text-color, #FFFFFF);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    padding-block: 16px;
+    padding-inline: 42px;
+    gap: 32px;
+    background-color: var(--page__header-background-color, #3366CC);
+    font-weight: 800;
+}
+
+.main_menu_list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.main_menu-list-item {
+    position: relative;
+    cursor: pointer;
+    transition: 0.6s opacity ease;
+}
+
+.main_menu-list-item:hover {
+    opacity: 0.6;
+}
+
+.main_menu-list-item:focus {
+    outline: none;
+}
+
+.main_menu-list-item:focus-visible {
+    outline: 0;
+}
+
+.address__link {
+    display: flex;
+    gap:8px;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s opacity ease;
+}
+
+.address__link:hover {
+    opacity: 0.6;
+}
+
+.main_menu-list-item::after {
+    position: absolute;
+    content: "";
+    display: block;
+    margin-block-start: 2px;
+    transition: 0.6s opacity ease-in-out;
+    opacity: 0;
+    transform-origin: left;
+    background: currentColor;
+    inline-size: 100%;
+    block-size: 2px;
+    border-radius: 1px;
+
+}
+
+.main_menu-list-item:hover::after {
+    opacity: 1;
+}
+
+.address_phone {
+    block-size: 18px;
+    inline-size: 18px;
+}
+
+.lang_menu-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.lang_menu-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.lang_menu-list-item-link {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.nav_language_flag {
+    inline-size: 22px;
+    block-size: 16px;
+}
+
+.main_services {
+    background: var(--page__header-background-color, #3366CC);
+    inline-size: 100%;
+}

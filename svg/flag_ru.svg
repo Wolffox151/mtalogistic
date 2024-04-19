@@ -1,0 +1,17 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16">
+<symbol id="flag_ru">
+  <mask id="a" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="22" height="16">
+    <path d="M20.4 0H1.6C.7 0 0 .7 0 1.6v12.8c0 .9.7 1.6 1.6 1.6h18.8c.9 0 1.6-.7 1.6-1.6V1.6c0-.9-.7-1.6-1.6-1.6Z" fill="#fff"/>
+  </mask>
+  <g mask="url(#a)">
+    <path d="M20.4.2H1.6C.8.2.2.8.2 1.6v12.8c0 .8.6 1.4 1.4 1.4h18.8c.8 0 1.4-.6 1.4-1.4V1.6c0-.8-.6-1.4-1.4-1.4Z" fill="#fff" stroke="#F5F5F5" stroke-width="14.3"/>
+    <mask id="b" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-7" y="-7" width="36" height="30">
+      <path d="M20.4.2H1.6C.8.2.2.8.2 1.6v12.8c0 .8.6 1.4 1.4 1.4h18.8c.8 0 1.4-.6 1.4-1.4V1.6c0-.8-.6-1.4-1.4-1.4Z" fill="#fff" stroke="#fff" stroke-width="14.3"/>
+    </mask>
+    <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
+      <path d="M0 10.7h22V5.3H0v5.4Z" fill="#0C47B7"/>
+      <path d="M0 16h22v-5.3H0V16Z" fill="#E53B35"/>
+    </g>
+  </g>
+</symbol>
+</svg>
