@@ -5,141 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>MTA Logistic</title>
 </head>
 <body class="page">
-    <header class="header">
-        <h1 class="company-logo">Logo</h1>
-        <nav class="main_menu">
-            <ul class="main_menu_list">
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link main_menu-list-item-link-current" href="../">Главная</a>
+<header class="header">
+<div class="logo">MTALogistic</div>
+  <input type="checkbox" id="nav_check" hidden>
+    <nav class="nav-menu">
+      <ul class="nav__menu__list">
+        <li class="nav__menu__list-item">
+          <a href="" class="nav__menu__list-item-link active">Главная</a>
+        </li>
+        <li class="nav__menu__list-item">
+          <a class="nav__menu__list-item-link" href="">О компании</a>
+        </li>
+        <li class="nav__menu__list-item">
+          <a class="nav__menu__list-item-link" href="">Флот</a>
+        </li>
+        <li class="nav__menu__list-item">
+          <a class="nav__menu__list-item-link" href="">Услуги</a>
+        </li>
+        <li class="nav__menu__list-item">
+          <a class="nav__menu__list-item-link" href="">Контакты</a>
+        </li>
+      </ul>
+      <address class="address nav__menu__list">
+        <a class="address__link" href="tel:88123113876">
+          <svg class="address_phone" viewBox="0 0 18 18">
+            <use href="./svg/phone__icon.svg#phone__icon"/>
+          </svg>
+          <span class="adress__phone_number">+7 (812) 311 38 76</span>
+        </a>
+      </address>
+    </nav>
+    <label for="nav_check" class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+    </label>
+  </header>
+  <main class="main">
+    <section class="section_services">
+        <h2 class="section_services-title">Буксирные услуги</h2>
+        <article class="section_services_block_list">
+            <ul class="section_servcies_list">
+                <li class="section_servcies_list-item">
+                    <span class="section_servcies_list-item-decoration">
+                        Межпортовые и международные морские буксивровки
+                    </span>&nbsp;,
                 </li>
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link">О компании</a>
+                <li class="section_servcies_list-item">
+                    <span class="section_servcies_list-item-decoration">
+                        буксирное обеспечение судов (буксировка и швартовные операции)
+                    </span>&nbsp;,
                 </li>
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link">Флот</a>
+                <li class="section_servcies_list-item">
+                    <span class="section_servcies_list-item-decoration">
+                        доставка персонала, оборудования и снабжения заказчика
+                    </span>&nbsp;,
                 </li>
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link">Услуги</a>
+                <li class="section_servcies_list-item">
+                    <span class="section_servcies_list-item-decoration">
+                        обслуживание дноуглубительных работ в акватории и на внешних рейдах портов
+                    </span>&nbsp;,
                 </li>
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link">Проекты</a>
-                </li>
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link">Карьера</a>
-                </li>
-                <li class="main_menu-list-item">
-                    <a class="main_menu-list-item-link">Контакты</a>
+                <li class="section_servcies_list-item">
+                    <span class="section_servcies_list-item-decoration">
+                        обслуживание деятельности гидрографических и навигационных служб
+                    </span>
                 </li>
             </ul>
-        </nav>
-        <address class="address">
-            <a class="address__link" href="tel:88123113876">
-                <svg class="address_phone" viewBox="0 0 18 18">
-                    <use href="./svg/phone__icon.svg#phone__icon"/>
-                </svg>
-                <span class="adress__phone_number">+7 (812) 311 38 76</span>
-            </a>
-        </address>
-        <nav class="lang_menu">
-            <ul class="lang_menu-list">
-                <li class="lang_menu-list-item">
-                    <a class="lang_menu-list-item-link">
-                        <svg class="nav_language_flag" viewbox="0 0 22 16">
-                            <use href="./svg/flag_ru.svg#flag_ru"/>
-                        </svg>
-                        RU
-                    </a>
-                </li>
-                <li class="lang_menu-list-item">
-                    <a class="lang_menu-list-item-link">
-                        <svg class="nav_language_flag" viewbox="0 0 22 16">
-                            <use href="./svg/flag_en.svg#flag_en"/>
-                        </svg>
-                        EN
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <div class="section_services">
-            <h2 class="section_services-title">Буксирные услуги</h2>
-            <article class="section_services_block_list">
-                <ul class="section_servcies_list">
-                    <li class="section_servcies_list-item">
-                        <span class="section_servcies_list-item-decoration">
-                            Межпортовые и международные морские буксивровки
-                        </span>&nbsp;,
-                    </li>
-                    <li class="section_servcies_list-item">
-                        <span class="section_servcies_list-item-decoration">
-                            буксирное обеспечение судов (буксировка и швартовные операции)
-                        </span>&nbsp;,
-                    </li>
-                    <li class="section_servcies_list-item">
-                        <span class="section_servcies_list-item-decoration">
-                            доставка персонала, оборудования и снабжения заказчика
-                        </span>&nbsp;,
-                    </li>
-                    <li class="section_servcies_list-item">
-                        <span class="section_servcies_list-item-decoration">
-                            обслуживание дноуглубительных работ в акватории и на внешних рейдах портов
-                        </span>&nbsp;,
-                    </li>
-                    <li class="section_servcies_list-item">
-                        <span class="section_servcies_list-item-decoration">
-                            обслуживание деятельности гидрографических и навигационных служб
-                        </span>
-                    </li>
-                </ul>
-            </article>
-        </div>
-        <section class="photo_gallery">
-            <div class="wrapper">
-                <div class="container">
-                    <input type="radio" name="slide" id="c1" checked>
-                    <label for="c1" class="card">
-                        <div class="row">
-                            <div class="icon">1</div>
-                            <div class="description">
-                                <h4 class="card__header">Бизон</h4>
-                            </div>
+        </article>
+    </section>
+
+    <section class="photo_gallery">
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4 class="card__header">Бизон</h4>
                         </div>
-                    </label>
-                    <input type="radio" name="slide" id="c2" >
-                    <label for="c2" class="card">
-                        <div class="row">
-                            <div class="icon">2</div>
-                            <div class="description">
-                                <h4 class="card__header">Тур</h4>
-                            </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2" >
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4 class="card__header">Тур</h4>
                         </div>
-                    </label>
-                    <input type="radio" name="slide" id="c3" >
-                    <label for="c3" class="card">
-                        <div class="row">
-                            <div class="icon">3</div>
-                            <div class="description">
-                                <h4 class="card__header">Персей</h4>
-                            </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3" >
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4 class="card__header">Персей</h4>
                         </div>
-                    </label>
-                    <input type="radio" name="slide" id="c4" >
-                    <label for="c4" class="card">
-                        <div class="row">
-                            <div class="icon">4</div>
-                            <div class="description">
-                                <h4 class="card__header">Теген</h4>
-                            </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4" >
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4 class="card__header">Теген</h4>
                         </div>
-                    </label>
-                </div>
+                    </div>
+                </label>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
 </body>
 </html>
