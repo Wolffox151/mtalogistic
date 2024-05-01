@@ -12,7 +12,6 @@
 .header {
   position: fixed;
   background: var(--page__blocks-background-color, #3366CC);
-  border-radius: 22px;
   inline-size: 100%;
   padding-inline: 30px;
   padding-block: 20px;
@@ -290,6 +289,7 @@ input:checked + label .description {
   .header {
     inline-size: 88%;
     padding-block: 16px;
+    border-radius: 22px;
   }
 
   .main {
