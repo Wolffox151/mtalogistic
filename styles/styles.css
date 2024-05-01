@@ -60,11 +60,12 @@
   border: 3px solid transparent;
   text-decoration: none;
   text-transform: uppercase;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 .header .nav-menu .nav__menu__list .nav__menu__list-item .nav__menu__list-item-link:hover,
 .header .nav-menu .nav__menu__list .nav__menu__list-item .nav__menu__list-item-link.active {
   border-bottom-color: dodgerblue;
+  opacity: 0.6;
 }
 
 .address .address__link {
@@ -97,7 +98,7 @@
   flex-direction: column;
   gap: 40px;
   flex-wrap: wrap;
-  padding-block: 20dvh;
+  padding-block-start: 20dvh;
 }
 
 .section_services {
@@ -243,6 +244,43 @@ input:checked + label .description {
 .card[for="c4"] {
   background-image: url('../images/slide_4.jpg');
 }
+
+.footer {
+  padding-block: 20px;
+  padding-inline: 20px;
+  margin-block: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  inline-size: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: var(--page__blocks-background-color, #3366CC);
+  border-radius: 22px;
+}
+
+.footer__company-name {
+  font-size: 22px;
+  text-align: center;
+}
+
+.footer__adress {
+  padding-block-start: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.footer_link {
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: lower;
+  color: rgb(50, 51, 146)
+}
+
+
 
 @media (width >= 1280px) {
   .page {
