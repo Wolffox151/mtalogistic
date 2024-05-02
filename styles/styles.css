@@ -362,7 +362,7 @@ input:checked + label .description {
 .footer {
   padding-block: 20px;
   padding-inline: 20px;
-  margin-block: 15px;
+  margin-block: 40px;
   display: flex;
   flex-wrap: wrap;
   inline-size: 100%;
