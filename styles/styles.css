@@ -360,6 +360,15 @@ input:checked + label .description {
 .card[for="c4"] {
   background-image: url('../images/slide_4.jpg');
 }
+.card[for="c5"] {
+  background-image: url('../images/slide_5.jpg');
+}
+.card[for="c6"] {
+  background-image: url('../images/slide_6.jpg');
+}
+.card[for="c7"] {
+  background-image: url('../images/slide_7.jpg');
+}
 
 .footer {
   padding-block: 20px;
